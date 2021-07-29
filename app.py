@@ -7,7 +7,7 @@ count = 0
 dir = 0
 pTime = 0
 app=Flask(__name__)
-camera = cv2.VideoCapture(1)
+camera = cv2.VideoCapture(0)
 
 
 def gen_frames():  
